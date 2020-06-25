@@ -1,6 +1,5 @@
-const express = require('express');
+const app = require('express')();
 const path = require('path');
-const app = express();
 const request = require("request").defaults({jar: true});
 var data = {};
 data.head = {   "appName": "5P55155874",
